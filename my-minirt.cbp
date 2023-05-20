@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="my-minirt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/my-minirt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/my-minirt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-fopenmp" />
+			<Add library="D:/CodeBlocks/MinGW/bin/libgomp-1.dll" />
+		</Linker>
+		<Unit filename="src/minirt/camera.cpp" />
+		<Unit filename="src/minirt/camera.h" />
+		<Unit filename="src/minirt/color.cpp" />
+		<Unit filename="src/minirt/color.h" />
+		<Unit filename="src/minirt/image.cpp" />
+		<Unit filename="src/minirt/image.h" />
+		<Unit filename="src/minirt/jpge.cpp" />
+		<Unit filename="src/minirt/jpge.h" />
+		<Unit filename="src/minirt/material.cpp" />
+		<Unit filename="src/minirt/material.h" />
+		<Unit filename="src/minirt/minirt.h" />
+		<Unit filename="src/minirt/point_3d.cpp" />
+		<Unit filename="src/minirt/point_3d.h" />
+		<Unit filename="src/minirt/point_light.cpp" />
+		<Unit filename="src/minirt/point_light.h" />
+		<Unit filename="src/minirt/ray.cpp" />
+		<Unit filename="src/minirt/ray.h" />
+		<Unit filename="src/minirt/sampler.cpp" />
+		<Unit filename="src/minirt/sampler.h" />
+		<Unit filename="src/minirt/scene.cpp" />
+		<Unit filename="src/minirt/scene.h" />
+		<Unit filename="src/minirt/scene_loader.cpp" />
+		<Unit filename="src/minirt/scene_loader.h" />
+		<Unit filename="src/minirt/sphere.cpp" />
+		<Unit filename="src/minirt/sphere.h" />
+		<Unit filename="src/minirt/vector_3d.cpp" />
+		<Unit filename="src/minirt/vector_3d.h" />
+		<Unit filename="src/minirt/view_plane.cpp" />
+		<Unit filename="src/minirt/view_plane.h" />
+		<Unit filename="src/minirt_test_openmp.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

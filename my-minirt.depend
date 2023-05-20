@@ -1,0 +1,161 @@
+# depslib dependency file v1.0
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\camera.cpp
+	"camera.h"
+	<cmath>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\camera.h
+	"point_3d.h"
+	"vector_3d.h"
+	"ray.h"
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\point_3d.h
+	"vector_3d.h"
+	<istream>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\vector_3d.h
+	<istream>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\ray.h
+	"point_3d.h"
+	"vector_3d.h"
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\color.cpp
+	"color.h"
+	<algorithm>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\color.h
+	<istream>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\image.cpp
+	"image.h"
+	"jpge.h"
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\image.h
+	"color.h"
+	<vector>
+	<string>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\jpge.h
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\jpge.cpp
+	"jpge.h"
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<stdio.h>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\material.cpp
+	"material.h"
+	"vector_3d.h"
+	<algorithm>
+	<cmath>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\material.h
+	"color.h"
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\point_3d.cpp
+	"point_3d.h"
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\point_light.cpp
+	"point_light.h"
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\point_light.h
+	"point_3d.h"
+	"color.h"
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\ray.cpp
+	"ray.h"
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\sampler.cpp
+	"sampler.h"
+	<random>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\sampler.h
+	<vector>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\scene.cpp
+	"scene.h"
+	"ray.h"
+	"scene_loader.h"
+	<limits>
+	<algorithm>
+	<stdexcept>
+	<fstream>
+	<cmath>
+	<map>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\scene.h
+	"sphere.h"
+	"point_light.h"
+	"color.h"
+	"camera.h"
+	<vector>
+	<string>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\sphere.h
+	"point_3d.h"
+	"vector_3d.h"
+	"material.h"
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\scene_loader.h
+	"scene.h"
+	"sphere.h"
+	"point_light.h"
+	"material.h"
+	"camera.h"
+	<string>
+	<map>
+	<fstream>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\scene_loader.cpp
+	"scene_loader.h"
+	<stdexcept>
+	<string>
+	<algorithm>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\sphere.cpp
+	"sphere.h"
+	"ray.h"
+	<cmath>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\vector_3d.cpp
+	"vector_3d.h"
+	<cmath>
+
+1647506899 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\view_plane.cpp
+	"view_plane.h"
+	"point_3d.h"
+	"scene.h"
+	"ray.h"
+	"sampler.h"
+	"camera.h"
+	<algorithm>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\view_plane.h
+	"color.h"
+	"vector_3d.h"
+	"point_3d.h"
+
+1684577127 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt_test_openmp.cpp
+	"minirt/minirt.h"
+	<cmath>
+	<iostream>
+	<omp.h>
+
+1647506899 d:\cpp work\nsu\supercomp\task1\mini-rt-my\src\minirt\minirt.h
+	"camera.h"
+	"color.h"
+	"image.h"
+	"material.h"
+	"point_3d.h"
+	"point_light.h"
+	"ray.h"
+	"sampler.h"
+	"scene.h"
+	"scene_loader.h"
+	"sphere.h"
+	"vector_3d.h"
+	"view_plane.h"
+
+1684561930 source:d:\cpp work\nsu\supercomp\task1\mini-rt-my\untitled1.c
+
